@@ -18,8 +18,8 @@ tasks:
     - reports/junit: test-reports/*.xml
     - commands:
       - |
-   sonar-scanner \
-  -Dsonar.projectKey= python \
-  -Dsonar.sources=. \
-  -Dsonar.host.url=http://13.233.98.144:9000 \
-  -Dsonar.login=bc4c87d4458ba8693212b09e217dcfa29e2bda0e
+       sonar-scanner \
+       -Dsonar.projectKey= python \
+       -Dsonar.sources=. \
+       -Dsonar.host.url=http://13.233.98.144:9000 \
+       -Dsonar.login=bc4c87d4458ba8693212b09e217dcfa29e2bda0e
