@@ -18,7 +18,7 @@ tasks:
     - reports/junit: test-reports/*.xml
     - commands:
       - |
-       sonar-scanner \
+       #sonar-scanner \
        -Dsonar.projectKey= python \
        -Dsonar.sources=. \
        -Dsonar.host.url=http://13.233.98.144:9000 \
