@@ -16,10 +16,15 @@ tasks:
         paths:
         - /usr/local/lib/python3.9/site-packages
     - reports/junit: test-reports/*.xml
+hello-job:
+    runner: sonarsource/sonar-scanner-cli
+    steps:
+   
+    - checkout    
     - commands:
       - |
-       sonar-scanner \
-        -Dsonar.projectKey= python \
-        -Dsonar.sources=. \
-        -Dsonar.host.url=http://13.233.98.144:9000 \
-        -Dsonar.login=bc4c87d4458ba8693212b09e217dcfa29e2bda0e
+        sonar-scanner \
+         -Dsonar.projectKey=python \
+         -Dsonar.sources=. \
+         -Dsonar.host.url=http://13.235.82.212:9000 \
+         -Dsonar.login=248c36b5e7fa8aaa6157029fb14eacb76001d4e0
