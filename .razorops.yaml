@@ -16,7 +16,7 @@ tasks:
         paths:
         - /usr/local/lib/python3.9/site-packages
     - reports/junit: test-reports/*.xml
-hello-job:
+  pyhton-sonar-job:
     runner: sonarsource/sonar-scanner-cli
     steps:
    
