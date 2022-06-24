@@ -26,5 +26,5 @@ tasks:
         sonar-scanner \
          -Dsonar.projectKey=python \
          -Dsonar.sources=. \
-         -Dsonar.host.url=http://13.235.82.212:9000 \
-         -Dsonar.login=248c36b5e7fa8aaa6157029fb14eacb76001d4e0
+         -Dsonar.host.url=http://13.232.112.77:9000 \
+         -Dsonar.login=sqp_c3c2c9af3dcabed24503fc11bd3323b23fd327a8
